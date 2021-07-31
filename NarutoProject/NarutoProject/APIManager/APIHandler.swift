@@ -10,12 +10,12 @@ import Foundation
 class APIHandler {
     typealias CompletionHandler = ((Any?, Error?)->())?
     
-    static let shared = APIHandler()
+    static let shared = APIHandler.init()
     private init (){}
 
     var delegate: APIHandlerProtocol?
     
-    func fetchData<T>(url: URL, type: T.Type, completion: CompletionHandler) where T: Decodable{
+    func fetchData<T>(url: URL, type: T.Type, movieId: Int? = nil, completion: CompletionHandler) where T: Decodable{
         
         var request = URLRequest.init(url: url)
         //Give Api a certain amount of time before timing out

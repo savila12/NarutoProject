@@ -16,13 +16,13 @@ struct Anime: Codable {
     let url: String?
     let image_url: String?
     let title: String?
-    let airing: Bool?
+    var airing: Bool? = nil
     let synopsis: String?
     let type: String?
     let episodes: Int?
-    let score: Float?
+    var score: Float? = nil
     let start_date: String?
-    let end_date: String?
+    var end_date: String? = nil
     let members: Int?
     let rated: String?
 }
