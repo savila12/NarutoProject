@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E2B36326B593BE00C7A504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B36226B593BE00C7A504 /* AppDelegate.swift */; };
+		01E2B36526B593BE00C7A504 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B36426B593BE00C7A504 /* SceneDelegate.swift */; };
+		01E2B36726B593BE00C7A504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B36626B593BE00C7A504 /* ViewController.swift */; };
+		01E2B36A26B593BE00C7A504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E2B36826B593BE00C7A504 /* Main.storyboard */; };
+		01E2B36C26B593C400C7A504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E2B36B26B593C400C7A504 /* Assets.xcassets */; };
+		01E2B36F26B593C400C7A504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E2B36D26B593C400C7A504 /* LaunchScreen.storyboard */; };
+		01E2B37A26B593C400C7A504 /* NarutoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B37926B593C400C7A504 /* NarutoProjectTests.swift */; };
+		01E2B38526B593C400C7A504 /* NarutoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B38426B593C400C7A504 /* NarutoProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01E2B37626B593C400C7A504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E2B35726B593BE00C7A504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E2B35E26B593BE00C7A504;
+			remoteInfo = NarutoProject;
+		};
+		01E2B38126B593C400C7A504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01E2B35726B593BE00C7A504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01E2B35E26B593BE00C7A504;
+			remoteInfo = NarutoProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E2B35F26B593BE00C7A504 /* NarutoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NarutoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E2B36226B593BE00C7A504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01E2B36426B593BE00C7A504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01E2B36626B593BE00C7A504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01E2B36926B593BE00C7A504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01E2B36B26B593C400C7A504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01E2B36E26B593C400C7A504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01E2B37026B593C400C7A504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E2B37526B593C400C7A504 /* NarutoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NarutoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E2B37926B593C400C7A504 /* NarutoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarutoProjectTests.swift; sourceTree = "<group>"; };
+		01E2B37B26B593C400C7A504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E2B38026B593C400C7A504 /* NarutoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NarutoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E2B38426B593C400C7A504 /* NarutoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarutoProjectUITests.swift; sourceTree = "<group>"; };
+		01E2B38626B593C400C7A504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E2B35C26B593BE00C7A504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E2B37226B593C400C7A504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E2B37D26B593C400C7A504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E2B35626B593BE00C7A504 = {
+			isa = PBXGroup;
+			children = (
+				01E2B36126B593BE00C7A504 /* NarutoProject */,
+				01E2B37826B593C400C7A504 /* NarutoProjectTests */,
+				01E2B38326B593C400C7A504 /* NarutoProjectUITests */,
+				01E2B36026B593BE00C7A504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01E2B36026B593BE00C7A504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E2B35F26B593BE00C7A504 /* NarutoProject.app */,
+				01E2B37526B593C400C7A504 /* NarutoProjectTests.xctest */,
+				01E2B38026B593C400C7A504 /* NarutoProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E2B36126B593BE00C7A504 /* NarutoProject */ = {
+			isa = PBXGroup;
+			children = (
+				01E2B36226B593BE00C7A504 /* AppDelegate.swift */,
+				01E2B36426B593BE00C7A504 /* SceneDelegate.swift */,
+				01E2B36626B593BE00C7A504 /* ViewController.swift */,
+				01E2B36826B593BE00C7A504 /* Main.storyboard */,
+				01E2B36B26B593C400C7A504 /* Assets.xcassets */,
+				01E2B36D26B593C400C7A504 /* LaunchScreen.storyboard */,
+				01E2B37026B593C400C7A504 /* Info.plist */,
+			);
+			path = NarutoProject;
+			sourceTree = "<group>";
+		};
+		01E2B37826B593C400C7A504 /* NarutoProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				01E2B37926B593C400C7A504 /* NarutoProjectTests.swift */,
+				01E2B37B26B593C400C7A504 /* Info.plist */,
+			);
+			path = NarutoProjectTests;
+			sourceTree = "<group>";
+		};
+		01E2B38326B593C400C7A504 /* NarutoProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01E2B38426B593C400C7A504 /* NarutoProjectUITests.swift */,
+				01E2B38626B593C400C7A504 /* Info.plist */,
+			);
+			path = NarutoProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E2B35E26B593BE00C7A504 /* NarutoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E2B38926B593C400C7A504 /* Build configuration list for PBXNativeTarget "NarutoProject" */;
+			buildPhases = (
+				01E2B35B26B593BE00C7A504 /* Sources */,
+				01E2B35C26B593BE00C7A504 /* Frameworks */,
+				01E2B35D26B593BE00C7A504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NarutoProject;
+			productName = NarutoProject;
+			productReference = 01E2B35F26B593BE00C7A504 /* NarutoProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01E2B37426B593C400C7A504 /* NarutoProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E2B38C26B593C400C7A504 /* Build configuration list for PBXNativeTarget "NarutoProjectTests" */;
+			buildPhases = (
+				01E2B37126B593C400C7A504 /* Sources */,
+				01E2B37226B593C400C7A504 /* Frameworks */,
+				01E2B37326B593C400C7A504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E2B37726B593C400C7A504 /* PBXTargetDependency */,
+			);
+			name = NarutoProjectTests;
+			productName = NarutoProjectTests;
+			productReference = 01E2B37526B593C400C7A504 /* NarutoProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01E2B37F26B593C400C7A504 /* NarutoProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E2B38F26B593C400C7A504 /* Build configuration list for PBXNativeTarget "NarutoProjectUITests" */;
+			buildPhases = (
+				01E2B37C26B593C400C7A504 /* Sources */,
+				01E2B37D26B593C400C7A504 /* Frameworks */,
+				01E2B37E26B593C400C7A504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E2B38226B593C400C7A504 /* PBXTargetDependency */,
+			);
+			name = NarutoProjectUITests;
+			productName = NarutoProjectUITests;
+			productReference = 01E2B38026B593C400C7A504 /* NarutoProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E2B35726B593BE00C7A504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					01E2B35E26B593BE00C7A504 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					01E2B37426B593C400C7A504 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 01E2B35E26B593BE00C7A504;
+					};
+					01E2B37F26B593C400C7A504 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 01E2B35E26B593BE00C7A504;
+					};
+				};
+			};
+			buildConfigurationList = 01E2B35A26B593BE00C7A504 /* Build configuration list for PBXProject "NarutoProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01E2B35626B593BE00C7A504;
+			productRefGroup = 01E2B36026B593BE00C7A504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E2B35E26B593BE00C7A504 /* NarutoProject */,
+				01E2B37426B593C400C7A504 /* NarutoProjectTests */,
+				01E2B37F26B593C400C7A504 /* NarutoProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E2B35D26B593BE00C7A504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E2B36F26B593C400C7A504 /* LaunchScreen.storyboard in Resources */,
+				01E2B36C26B593C400C7A504 /* Assets.xcassets in Resources */,
+				01E2B36A26B593BE00C7A504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E2B37326B593C400C7A504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E2B37E26B593C400C7A504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E2B35B26B593BE00C7A504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E2B36726B593BE00C7A504 /* ViewController.swift in Sources */,
+				01E2B36326B593BE00C7A504 /* AppDelegate.swift in Sources */,
+				01E2B36526B593BE00C7A504 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E2B37126B593C400C7A504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E2B37A26B593C400C7A504 /* NarutoProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01E2B37C26B593C400C7A504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E2B38526B593C400C7A504 /* NarutoProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E2B37726B593C400C7A504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E2B35E26B593BE00C7A504 /* NarutoProject */;
+			targetProxy = 01E2B37626B593C400C7A504 /* PBXContainerItemProxy */;
+		};
+		01E2B38226B593C400C7A504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01E2B35E26B593BE00C7A504 /* NarutoProject */;
+			targetProxy = 01E2B38126B593C400C7A504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01E2B36826B593BE00C7A504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E2B36926B593BE00C7A504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01E2B36D26B593C400C7A504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E2B36E26B593C400C7A504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01E2B38726B593C400C7A504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01E2B38826B593C400C7A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01E2B38A26B593C400C7A504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarutoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSdev.batch29.NarutoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01E2B38B26B593C400C7A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarutoProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSdev.batch29.NarutoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01E2B38D26B593C400C7A504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarutoProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSdev.batch29.NarutoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NarutoProject.app/NarutoProject";
+			};
+			name = Debug;
+		};
+		01E2B38E26B593C400C7A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarutoProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSdev.batch29.NarutoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NarutoProject.app/NarutoProject";
+			};
+			name = Release;
+		};
+		01E2B39026B593C400C7A504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarutoProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSdev.batch29.NarutoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NarutoProject;
+			};
+			name = Debug;
+		};
+		01E2B39126B593C400C7A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NarutoProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSdev.batch29.NarutoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NarutoProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E2B35A26B593BE00C7A504 /* Build configuration list for PBXProject "NarutoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E2B38726B593C400C7A504 /* Debug */,
+				01E2B38826B593C400C7A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E2B38926B593C400C7A504 /* Build configuration list for PBXNativeTarget "NarutoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E2B38A26B593C400C7A504 /* Debug */,
+				01E2B38B26B593C400C7A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E2B38C26B593C400C7A504 /* Build configuration list for PBXNativeTarget "NarutoProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E2B38D26B593C400C7A504 /* Debug */,
+				01E2B38E26B593C400C7A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E2B38F26B593C400C7A504 /* Build configuration list for PBXNativeTarget "NarutoProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E2B39026B593C400C7A504 /* Debug */,
+				01E2B39126B593C400C7A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E2B35726B593BE00C7A504 /* Project object */;
+}
