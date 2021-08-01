@@ -28,8 +28,8 @@ class CustomCollectionView: UICollectionViewCell {
             self.typeLabel.text = "Type: \(value.type ?? "-")"
             self.episodesLabel.text = "Episodes: \(value.episodes ?? 0)"
             self.releaseLabel.text = "Release Date: \(value.start_date ?? "-")"
-            
-            
+            let image = value.image_url
+            imgView.sd_setImage(with: URL(string: "\(image ?? "")"), completed: nil)
         }
     }
     

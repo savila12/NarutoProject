@@ -22,6 +22,9 @@
 		01E2B3A326B5A8D800C7A504 /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B3A226B5A8D800C7A504 /* CustomCollectionView.swift */; };
 		01E2B3A526B5B0B200C7A504 /* AnimeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B3A426B5B0B200C7A504 /* AnimeDetailsViewModel.swift */; };
 		01E2B3A926B5B0DF00C7A504 /* AnimeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B3A826B5B0DF00C7A504 /* AnimeDetailsViewController.swift */; };
+		0FC1BE893F298023207821D0 /* Pods_NarutoProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC94AFCD600693DFB610BC9 /* Pods_NarutoProjectTests.framework */; };
+		4B1D31F332DB2A5CF65ED333 /* Pods_NarutoProject_NarutoProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F95FC5C8B87A0574A9A4051 /* Pods_NarutoProject_NarutoProjectUITests.framework */; };
+		BC5B409154E3711AE8E888A3 /* Pods_NarutoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2419A9DA65034B27B3B1FB /* Pods_NarutoProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019A2019370BE7E375CB1189 /* Pods-NarutoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NarutoProjectTests.release.xcconfig"; path = "Target Support Files/Pods-NarutoProjectTests/Pods-NarutoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		01E2B35F26B593BE00C7A504 /* NarutoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NarutoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E2B36226B593BE00C7A504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01E2B36426B593BE00C7A504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,14 @@
 		01E2B3A226B5A8D800C7A504 /* CustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
 		01E2B3A426B5B0B200C7A504 /* AnimeDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailsViewModel.swift; sourceTree = "<group>"; };
 		01E2B3A826B5B0DF00C7A504 /* AnimeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailsViewController.swift; sourceTree = "<group>"; };
+		0DC94AFCD600693DFB610BC9 /* Pods_NarutoProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NarutoProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4092CCC8CC1B402588A20A /* Pods-NarutoProject-NarutoProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NarutoProject-NarutoProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-NarutoProject-NarutoProjectUITests/Pods-NarutoProject-NarutoProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F95FC5C8B87A0574A9A4051 /* Pods_NarutoProject_NarutoProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NarutoProject_NarutoProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC395D9FD82498897AF9852 /* Pods-NarutoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NarutoProject.debug.xcconfig"; path = "Target Support Files/Pods-NarutoProject/Pods-NarutoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		841BB3B46CE2529EAF52BF64 /* Pods-NarutoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NarutoProject.release.xcconfig"; path = "Target Support Files/Pods-NarutoProject/Pods-NarutoProject.release.xcconfig"; sourceTree = "<group>"; };
+		AF2419A9DA65034B27B3B1FB /* Pods_NarutoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NarutoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C63039098881E14C8F604135 /* Pods-NarutoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NarutoProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-NarutoProjectTests/Pods-NarutoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D014F9F7C8D1EE13843B5281 /* Pods-NarutoProject-NarutoProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NarutoProject-NarutoProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-NarutoProject-NarutoProjectUITests/Pods-NarutoProject-NarutoProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC5B409154E3711AE8E888A3 /* Pods_NarutoProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC1BE893F298023207821D0 /* Pods_NarutoProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1D31F332DB2A5CF65ED333 /* Pods_NarutoProject_NarutoProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,8 @@
 				01E2B37826B593C400C7A504 /* NarutoProjectTests */,
 				01E2B38326B593C400C7A504 /* NarutoProjectUITests */,
 				01E2B36026B593BE00C7A504 /* Products */,
+				D85CFEDC8C304E27ED4CAAF1 /* Pods */,
+				1F048133E3CF362A0D5BBBE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +230,30 @@
 			path = CustomViews;
 			sourceTree = "<group>";
 		};
+		1F048133E3CF362A0D5BBBE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF2419A9DA65034B27B3B1FB /* Pods_NarutoProject.framework */,
+				5F95FC5C8B87A0574A9A4051 /* Pods_NarutoProject_NarutoProjectUITests.framework */,
+				0DC94AFCD600693DFB610BC9 /* Pods_NarutoProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D85CFEDC8C304E27ED4CAAF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FC395D9FD82498897AF9852 /* Pods-NarutoProject.debug.xcconfig */,
+				841BB3B46CE2529EAF52BF64 /* Pods-NarutoProject.release.xcconfig */,
+				3A4092CCC8CC1B402588A20A /* Pods-NarutoProject-NarutoProjectUITests.debug.xcconfig */,
+				D014F9F7C8D1EE13843B5281 /* Pods-NarutoProject-NarutoProjectUITests.release.xcconfig */,
+				C63039098881E14C8F604135 /* Pods-NarutoProjectTests.debug.xcconfig */,
+				019A2019370BE7E375CB1189 /* Pods-NarutoProjectTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01E2B38926B593C400C7A504 /* Build configuration list for PBXNativeTarget "NarutoProject" */;
 			buildPhases = (
+				4FC96D946B82F505678FC19C /* [CP] Check Pods Manifest.lock */,
 				01E2B35B26B593BE00C7A504 /* Sources */,
 				01E2B35C26B593BE00C7A504 /* Frameworks */,
 				01E2B35D26B593BE00C7A504 /* Resources */,
+				3170A7C61E5E34D231F60C96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01E2B38C26B593C400C7A504 /* Build configuration list for PBXNativeTarget "NarutoProjectTests" */;
 			buildPhases = (
+				4008B064E08A4325BE1CADCD /* [CP] Check Pods Manifest.lock */,
 				01E2B37126B593C400C7A504 /* Sources */,
 				01E2B37226B593C400C7A504 /* Frameworks */,
 				01E2B37326B593C400C7A504 /* Resources */,
@@ -255,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01E2B38F26B593C400C7A504 /* Build configuration list for PBXNativeTarget "NarutoProjectUITests" */;
 			buildPhases = (
+				896AF5CD98626989CF8338C6 /* [CP] Check Pods Manifest.lock */,
 				01E2B37C26B593C400C7A504 /* Sources */,
 				01E2B37D26B593C400C7A504 /* Frameworks */,
 				01E2B37E26B593C400C7A504 /* Resources */,
+				31630B3C7E17C5E8CA020F4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,6 +383,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31630B3C7E17C5E8CA020F4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NarutoProject-NarutoProjectUITests/Pods-NarutoProject-NarutoProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NarutoProject-NarutoProjectUITests/Pods-NarutoProject-NarutoProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NarutoProject-NarutoProjectUITests/Pods-NarutoProject-NarutoProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3170A7C61E5E34D231F60C96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NarutoProject/Pods-NarutoProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NarutoProject/Pods-NarutoProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NarutoProject/Pods-NarutoProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4008B064E08A4325BE1CADCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NarutoProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC96D946B82F505678FC19C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NarutoProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		896AF5CD98626989CF8338C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NarutoProject-NarutoProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01E2B35B26B593BE00C7A504 /* Sources */ = {
@@ -525,6 +674,7 @@
 		};
 		01E2B38A26B593C400C7A504 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC395D9FD82498897AF9852 /* Pods-NarutoProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -543,6 +693,7 @@
 		};
 		01E2B38B26B593C400C7A504 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841BB3B46CE2529EAF52BF64 /* Pods-NarutoProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -561,6 +712,7 @@
 		};
 		01E2B38D26B593C400C7A504 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63039098881E14C8F604135 /* Pods-NarutoProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,6 +734,7 @@
 		};
 		01E2B38E26B593C400C7A504 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019A2019370BE7E375CB1189 /* Pods-NarutoProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -603,6 +756,7 @@
 		};
 		01E2B39026B593C400C7A504 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4092CCC8CC1B402588A20A /* Pods-NarutoProject-NarutoProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -622,6 +776,7 @@
 		};
 		01E2B39126B593C400C7A504 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D014F9F7C8D1EE13843B5281 /* Pods-NarutoProject-NarutoProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

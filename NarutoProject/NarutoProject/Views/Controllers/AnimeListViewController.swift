@@ -4,8 +4,8 @@
 //
 //  Created by Matthew Hernandez on 7/31/21.
 //
-
 import UIKit
+import SDWebImage
 
 class AnimeListViewController: UIViewController {
     
@@ -16,9 +16,14 @@ class AnimeListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.collectionView.delegate = self
+        self.collectionView.dataSource = self
         
         animeVM.fetchDataFromAPI(url: URL.init(string: Constants.url.rawValue)!, type: Animes.self){
-            self.collectionView.reloadData()
+            
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+            }
         }
         
     }

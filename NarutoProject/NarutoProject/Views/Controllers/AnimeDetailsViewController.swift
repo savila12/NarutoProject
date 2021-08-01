@@ -44,7 +44,7 @@ extension AnimeDetailsViewController: AnimeDetailsViewModelProtocol {
             self.endDateLabel.text = "End Date: \(anime.end_date ?? "N/A")"
             self.synopsis.text = anime.synopsis ?? "N/A"
             
-            
+            self.imgView.sd_setImage(with: URL(string: "\(anime.image_url ?? "")"), completed: nil)
             
             
         }

@@ -26,7 +26,8 @@ class AnimeViewModel: APIHandlerProtocol {
     
     func fetchDataFromAPI<T>(url: URL, type: T.Type, completion: CompletionHandler) where T: Decodable{
         apiHandler.fetchData(url: url, type: type) {data, error in
-            self.dataFromAnime = data as? [Anime]
+            let animes = data as? Animes
+            self.dataFromAnime = animes?.results
             self.error = error
             completion?()
         }

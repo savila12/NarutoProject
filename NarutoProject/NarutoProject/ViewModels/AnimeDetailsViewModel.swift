@@ -20,7 +20,7 @@ class AnimeDetailsViewModel {
     func updateAnimeObject(anime: Anime, completion: @escaping (Anime)->()) {
         guard let id = anime.mal_id else {return}
         
-        APIHandler.shared.fetchData(url: URL.init(string: Constants.url.rawValue)!, type: [Anime].self, movieId: id) { response, _ in
+        APIHandler.shared.fetchData(url: URL.init(string: Constants.url.rawValue)!, type: Animes.self, movieId: id) { response, _ in
             guard let response = (response as? Anime) else {return}
             var updateAnime = anime
             updateAnime.score = response.score
