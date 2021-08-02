@@ -15,7 +15,7 @@ class AnimeViewModel: APIHandlerProtocol {
     var delegate: AnimeViewModelProtocol?
     let apiHandler = APIHandler.shared
     var error: Error?
-    var searchRequestText: String?
+    var searchText: String = ""
     let searchVC = SearchViewController()
     
     
@@ -26,18 +26,30 @@ class AnimeViewModel: APIHandlerProtocol {
     
     init(){
         apiHandler.delegate = self
+        
     }
     
-    
-    func fetchDataFromAPI<T>(url: URL, type: T.Type, completion: CompletionHandler) where T: Decodable{
-        
-        apiHandler.fetchData(url: url, type: type) {data, error in
-            let animes = data as? Animes
-            self.dataFromAnime = animes?.results
-            self.error = error
-            completion?()
+    func requestData(endPoint: EndPoints, completion: @escaping ([Anime])->()){
+        searchVC.passSearchText = {text in
+            self.searchText = text
+        }
+        apiHandler.requestDataForSearch(type: Animes.self, endPoint: endPoint, params: [.query: self.searchText]){ animes in
+            guard let animes = animes?.results else {return}
+            self.dataFromAnime = animes
+            completion(animes)
+            
         }
     }
+    
+//    func fetchDataFromAPI<T>(url: URL, type: T.Type, completion: CompletionHandler) where T: Decodable{
+//        
+//        apiHandler.fetchData(url: url, type: type) {data, error in
+//            let animes = data as? Animes
+//            self.dataFromAnime = animes?.results
+//            self.error = error
+//            completion?()
+//        }
+//    }
     
     
     func getAnimeCount() -> Int {

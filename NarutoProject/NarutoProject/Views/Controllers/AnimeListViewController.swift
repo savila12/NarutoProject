@@ -21,14 +21,31 @@ class AnimeListViewController: UIViewController {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         
-        animeVM.fetchDataFromAPI(url: URL.init(string: Constants.url.rawValue)!, type: Animes.self){
-
+        
+//        animeVM.fetchDataFromAPI(url: URL.init(string: Constants.url.rawValue)!, type: Animes.self){
+//
+//            DispatchQueue.main.async {
+//                self.collectionView.reloadData()
+//            }
+//        }
+        
+        animeVM.requestData(endPoint: .home) {_ in
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
             }
         }
         
         setupRightNavBtn()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
+        animeVM.requestData(endPoint: .search) { _ in
+            DispatchQueue.main.async {
+                self.collectionView.reloadData()
+            }
+        }
     }
     
     

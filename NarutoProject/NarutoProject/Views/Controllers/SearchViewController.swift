@@ -73,9 +73,13 @@ class SearchViewController: UIViewController {
     @objc func btnPressed() {
         //Check if text contains more 3 or more characters
         if let text = searchTxtField.text, text.count >= 3 {
-            passSearchText?(text)
+            passSearchText?(text.lowercased())
             print("Button Pressed")
-            self.dismiss(animated: true, completion: nil)
+            self.dismiss(animated: true) {
+                //self.reloadInputViews()
+                self.parent?.reloadInputViews()
+                
+            }
         }
     }
 }

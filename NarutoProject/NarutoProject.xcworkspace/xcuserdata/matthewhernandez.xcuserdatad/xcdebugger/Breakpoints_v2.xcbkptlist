@@ -3,4 +3,118 @@
    uuid = "0EF52BFB-10B8-4CFF-9547-F6E0A4F1275A"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6A66128-13A6-44EC-823F-1C3921713E63"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NarutoProject/ViewModels/AnimeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "requestData(endPoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B6A66128-13A6-44EC-823F-1C3921713E63 - 95229eed6082861b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NarutoProject.AnimeViewModel.requestData(endPoint: NarutoProject.EndPoints, completion: (Swift.Array&lt;NarutoProject.Anime&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NarutoProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewhernandez/Desktop/iOSb29/Naruto/NarutoProject/NarutoProject/ViewModels/AnimeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "B6A66128-13A6-44EC-823F-1C3921713E63 - 907809cafd8dfd3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in NarutoProject.AnimeViewModel.requestData(endPoint: NarutoProject.EndPoints, completion: (Swift.Array&lt;NarutoProject.Anime&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NarutoProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewhernandez/Desktop/iOSb29/Naruto/NarutoProject/NarutoProject/ViewModels/AnimeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72C3F2A8-BD39-47F1-96B6-A6486DDCD0A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NarutoProject/ViewModels/AnimeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "requestData(endPoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "72C3F2A8-BD39-47F1-96B6-A6486DDCD0A0 - 95229eed608289fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NarutoProject.AnimeViewModel.requestData(endPoint: NarutoProject.EndPoints, completion: (Swift.Array&lt;NarutoProject.Anime&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NarutoProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewhernandez/Desktop/iOSb29/Naruto/NarutoProject/NarutoProject/ViewModels/AnimeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "163">
+               </Location>
+               <Location
+                  uuid = "72C3F2A8-BD39-47F1-96B6-A6486DDCD0A0 - 2e96525b6563e79e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;NarutoProject.Animes&gt;) -&gt; () in NarutoProject.AnimeViewModel.requestData(endPoint: NarutoProject.EndPoints, completion: (Swift.Array&lt;NarutoProject.Anime&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NarutoProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matthewhernandez/Desktop/iOSb29/Naruto/NarutoProject/NarutoProject/ViewModels/AnimeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "151">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF5E0F05-EE97-44B6-A483-BBECD260E977"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NarutoProject/Views/Controllers/AnimeListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
