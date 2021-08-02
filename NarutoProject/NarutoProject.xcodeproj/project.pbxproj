@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,8 +20,8 @@
 		01E2B39E26B5979900C7A504 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B39D26B5979900C7A504 /* APIHandler.swift */; };
 		01E2B3A026B597B700C7A504 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B39F26B597B700C7A504 /* Constants.swift */; };
 		01E2B3A326B5A8D800C7A504 /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B3A226B5A8D800C7A504 /* CustomCollectionView.swift */; };
-		01E2B3A526B5B0B200C7A504 /* AnimeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B3A426B5B0B200C7A504 /* AnimeDetailsViewModel.swift */; };
-		01E2B3A926B5B0DF00C7A504 /* AnimeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B3A826B5B0DF00C7A504 /* AnimeDetailsViewController.swift */; };
+		01E2B3A926B5B0DF00C7A504 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B3A826B5B0DF00C7A504 /* SearchViewController.swift */; };
+		01E2B3AB26B6F38E00C7A504 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E2B3AA26B6F38E00C7A504 /* Endpoints.swift */; };
 		0FC1BE893F298023207821D0 /* Pods_NarutoProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC94AFCD600693DFB610BC9 /* Pods_NarutoProjectTests.framework */; };
 		4B1D31F332DB2A5CF65ED333 /* Pods_NarutoProject_NarutoProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F95FC5C8B87A0574A9A4051 /* Pods_NarutoProject_NarutoProjectUITests.framework */; };
 		BC5B409154E3711AE8E888A3 /* Pods_NarutoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2419A9DA65034B27B3B1FB /* Pods_NarutoProject.framework */; };
@@ -65,8 +65,8 @@
 		01E2B39D26B5979900C7A504 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		01E2B39F26B597B700C7A504 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		01E2B3A226B5A8D800C7A504 /* CustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
-		01E2B3A426B5B0B200C7A504 /* AnimeDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailsViewModel.swift; sourceTree = "<group>"; };
-		01E2B3A826B5B0DF00C7A504 /* AnimeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailsViewController.swift; sourceTree = "<group>"; };
+		01E2B3A826B5B0DF00C7A504 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		01E2B3AA26B6F38E00C7A504 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		0DC94AFCD600693DFB610BC9 /* Pods_NarutoProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NarutoProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4092CCC8CC1B402588A20A /* Pods-NarutoProject-NarutoProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NarutoProject-NarutoProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-NarutoProject-NarutoProjectUITests/Pods-NarutoProject-NarutoProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5F95FC5C8B87A0574A9A4051 /* Pods_NarutoProject_NarutoProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NarutoProject_NarutoProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,7 +172,6 @@
 			isa = PBXGroup;
 			children = (
 				01E2B39B26B5978A00C7A504 /* AnimeViewModel.swift */,
-				01E2B3A426B5B0B200C7A504 /* AnimeDetailsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -192,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				01E2B39D26B5979900C7A504 /* APIHandler.swift */,
+				01E2B3AA26B6F38E00C7A504 /* Endpoints.swift */,
 			);
 			path = APIManager;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				01E2B36626B593BE00C7A504 /* AnimeListViewController.swift */,
-				01E2B3A826B5B0DF00C7A504 /* AnimeDetailsViewController.swift */,
+				01E2B3A826B5B0DF00C7A504 /* SearchViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -250,7 +250,6 @@
 				C63039098881E14C8F604135 /* Pods-NarutoProjectTests.debug.xcconfig */,
 				019A2019370BE7E375CB1189 /* Pods-NarutoProjectTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -494,14 +493,14 @@
 			files = (
 				01E2B39C26B5978A00C7A504 /* AnimeViewModel.swift in Sources */,
 				01E2B39A26B5963800C7A504 /* Animes.swift in Sources */,
-				01E2B3A926B5B0DF00C7A504 /* AnimeDetailsViewController.swift in Sources */,
+				01E2B3A926B5B0DF00C7A504 /* SearchViewController.swift in Sources */,
 				01E2B36726B593BE00C7A504 /* AnimeListViewController.swift in Sources */,
 				01E2B39E26B5979900C7A504 /* APIHandler.swift in Sources */,
 				01E2B3A026B597B700C7A504 /* Constants.swift in Sources */,
 				01E2B36326B593BE00C7A504 /* AppDelegate.swift in Sources */,
 				01E2B36526B593BE00C7A504 /* SceneDelegate.swift in Sources */,
 				01E2B3A326B5A8D800C7A504 /* CustomCollectionView.swift in Sources */,
-				01E2B3A526B5B0B200C7A504 /* AnimeDetailsViewModel.swift in Sources */,
+				01E2B3AB26B6F38E00C7A504 /* Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

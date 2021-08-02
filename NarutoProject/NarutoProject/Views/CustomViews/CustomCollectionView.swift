@@ -29,6 +29,8 @@ class CustomCollectionView: UICollectionViewCell {
             self.episodesLabel.text = "Episodes: \(value.episodes ?? 0)"
             self.releaseLabel.text = "Release Date: \(value.start_date ?? "-")"
             let image = value.image_url
+            
+            /// Using third party to cache image
             imgView.sd_setImage(with: URL(string: "\(image ?? "")"), completed: nil)
         }
     }
