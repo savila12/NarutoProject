@@ -21,7 +21,6 @@ class SearchViewController: UIViewController {
         setUpSearchTxtField()
         setUpSearchBtn()
         setUpImage()
-        //hideKeyboardWhenTappedAround()
     }
     
 
@@ -75,11 +74,7 @@ class SearchViewController: UIViewController {
         if let text = searchTxtField.text, text.count >= 3 {
             passSearchText?(text.lowercased())
             print("Button Pressed")
-            self.dismiss(animated: true) {
-                //self.reloadInputViews()
-                self.parent?.reloadInputViews()
-                
-            }
+            self.dismiss(animated: true, completion: nil)
         }
     }
 }
